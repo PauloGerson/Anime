@@ -472,7 +472,8 @@ h1
     top:496vh;   
     color: #8c163e; 
 }
-@media only screen and (max-width: 1379px) {
+@media only screen and (max-width: 1379px) 
+{
     .num10
     {
      position: relative;
@@ -488,18 +489,116 @@ h1
       left: 30vh;
     }
     .num9
-      {
-       position: relative;
-       left: 32vh;
-      }
-    .nome9 
-      {
-        position: relative;
-        left: 36vh;
-      }
-    .top9 
     {
         position: relative;
-        left: 27vh;
+        left: 294px;
+    }
+    .nome9
+    {
+        position: relative;
+        left: 280px;
+        margin-top: 30px;
+    }
+    .num8
+    {
+        position: relative;
+        left: 294px;
+        top: 160vh;
+    }
+    .nome8
+    {
+        position: relative;
+        left: 294px;
+        top: 155vh;
+        
+    }
+    .num7
+    {
+        position: relative;
+        left: 294px;
+        top:235vh;
+    }
+    .nome7
+    {
+        position: relative;
+        left: 294px;
+        top: 238vh;
+    }
+    .num6
+    {
+        position: relative;
+        left: 294px;
+        top:292vh;
+    }
+    .nome6
+    {
+        position: relative;
+        left: 294px;
+        top:286vh;
+    }
+    .num5
+    {
+        position: relative;
+        left: 294px;
+        top:358vh;
+    }
+    .nome5
+    {
+        position: relative;
+        left: 294px;
+        top:356vh;
+    }
+    .num4
+    {
+        position: relative;
+        left: 294px;
+        top:430vh;
+    }
+    .nome4
+    {
+        position: relative;
+        left: 294px;
+        top:428vh;
+    }
+    .num3
+    {
+        position: relative;
+        left: 294px;
+        top:468vh;
+    }
+    .nome3
+    {
+        position: relative;
+        left: 294px;
+        top:467vh;
+    }
+    .num2
+    {
+        position: relative;
+        left: 294px;
+        top:548vh;
+    }
+    .nome2
+    {
+        position: relative;
+        left: 294px;
+        top:548vh;
+    }
+    .num1
+    {
+        position: relative;
+        left: 294px;
+        top:639vh;
+    }
+    .nome1
+    {
+        position: relative;
+        left: 294px;
+        top:639vh;
+    }
+    .top101
+    {
+        position: relative;
+        left: 18%;
     }
   }
