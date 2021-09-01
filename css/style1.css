@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #101210;
+}
+header{
+
+    height: 100px;
+}
+.menu {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+}
+.menu ul, li{
+    display: flex;
+    margin-right: 1rem;
+}
+.menu a{
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    transition: 0.2s;   
+}
+.menu a:hover{
+    border-bottom: 2px solid #d68109;
+}
+.logo{
+    color:#d62709 ;
+    font-family: 'Audiowide';
+    font-size: 40px;
+    cursor: pointer;
+}
+.logo span{
+    color: #d68109;
+    text-transform: uppercase;
+}
+.poster{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   
+}
+.poster1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.poster1 img{
+    width: 13rem;
+}
+.poster img{
+    width: 13rem;
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.btn1 input[type="button"]{
+    color: white;
+    background: none;
+    border: none;
+    background-color: #d62709;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn1 input[type="button"]:hover{
+    background: #ad0803 ;
+}
+
