@@ -53,21 +53,11 @@ header{
     justify-content: center;
     justify-content: space-around;
 }
-.poster1 img{
-    width: 13rem;
-}
-.poster img{
+ img{
     width: 13rem;
 }
 
-.btn1{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.btn1 input[type="button"]{
+ input[type="button"]{
     color: white;
     background: none;
     border: none;
@@ -78,7 +68,38 @@ header{
     cursor: pointer;
     transition: 0.2s;
 }
-.btn1 input[type="button"]:hover{
+ input[type="button"]:hover{
     background: #ad0803 ;
+}
+
+@media(max-width:360px){
+    .poster {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .poster > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .poster1 {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .poster1 > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    input[type="button"]{
+        margin: 1rem 0;
+    }
 }
 
