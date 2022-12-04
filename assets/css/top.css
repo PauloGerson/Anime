@@ -57,6 +57,7 @@ h2{
 .top10img{
     width: 250px;
     height: 350px;
+    border-radius: 10px;
 }
 .uma {
     display: flex;
