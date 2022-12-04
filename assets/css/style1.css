@@ -1,0 +1,78 @@
+
+body{
+  background-color: #101210;
+  margin: 1.5rem;
+}
+header{
+    height: 100px;
+}
+.menu {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+}
+.menu ul, li{
+    display: flex;
+    margin-right: 1rem;
+}
+.menu a{
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    transition: 0.2s;   
+}
+.menu a:hover{
+    border-bottom: 2px solid #d68109;
+}
+.logo{
+    color:#d62709 ;
+    font-family: 'Audiowide';
+    font-size: 40px;
+    cursor: pointer;
+}
+.logo span{
+    color: #d68109;
+    text-transform: uppercase;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 3rem;
+    row-gap: 4rem; 
+
+ }
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post span{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+ img{
+    width: 200px;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    transition: 0.7s all;
+    cursor: pointer;
+ }
+ 
+ img:hover{
+    transform: scale(1.1);
+ }
