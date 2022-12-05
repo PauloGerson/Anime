@@ -65,7 +65,7 @@ header{
     text-align: center;
 }
 
- img{
+ .post img{
     width: 200px;
     border-radius: 1rem;
     margin-bottom: 2rem;
@@ -73,6 +73,32 @@ header{
     cursor: pointer;
  }
  
- img:hover{
+ .poster img:hover{
     transform: scale(1.1);
+ }
+
+ .menu img{
+    display: none;
+ }
+
+ @media (max-width:720px) {
+    body{
+       
+    }
+    .menu img{
+      
+     }
+     .menu{
+        width: 100vw;
+        height: 100vh;
+        
+        z-index: 999999999;
+     }
+
+     .menu ul,li{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+     }
  }

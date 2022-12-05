@@ -31,3 +31,7 @@ function criaElemento(poster, title){
     container.appendChild(posterDiv)
     
 }
+
+function menuMobile(){
+    
+}
