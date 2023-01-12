@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: "poppins";
+    src: url(../font/Poppins/Poppins-Black.ttf);
+}
 body{
   background-color: #101210;
   margin: 1.5rem;
