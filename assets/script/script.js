@@ -32,6 +32,4 @@ function criaElemento(poster, title){
     
 }
 
-function menuMobile(){
-    
-}
+
