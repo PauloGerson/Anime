@@ -3,6 +3,12 @@
     src: url(../font/Poppins/Poppins-ExtraLightItalic.ttf);
     
 }
+@font-face {
+    font-family: "Roboto";
+    src: url(../font/Roboto/Roboto-Light.ttf); 
+}
+
+
 body{
   background-color: #101210;
   margin: 1.5rem;
@@ -10,24 +16,25 @@ body{
 header{
     height: 100px;
 }
-.menu {
-    height: 80px;
+.menu{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 0 1rem;
-}
-.menu ul, li{
-    display: flex;
-    margin-right: 1rem;
-}
-.menu a{
-    font-family: 'Poppins';
-    text-decoration: none;
-    color: white;
-    font-size: 0.9rem;
-    transition: 0.2s;   
-}
+    justify-content: space-around;
+ 
+ }
+ .menu ul{
+     display: flex;
+     justify-content: center;
+    
+ }
+ .menu li, a {
+     text-decoration: none;
+     list-style: none;
+     margin-left: 1.5rem;
+     color: white;
+     font-family: 'Roboto';
+ }
 .menu a:hover{
     border-bottom: 2px solid #d68109;
 }
@@ -60,6 +67,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .post span{
@@ -74,13 +82,15 @@ header{
     width: 200px;
     border-radius: 1rem;
     margin-bottom: 2rem;
-    transition: 0.7s all;
+     transition: 0.7s all ;
     cursor: pointer;
  }
- 
- .poster img:hover{
+
+ .post img:hover{
     transform: scale(1.1);
  }
+ 
+
 
  .menu img{
     display: none;

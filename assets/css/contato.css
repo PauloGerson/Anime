@@ -3,8 +3,18 @@
     padding:0 ;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../font/Roboto/Roboto-Light.ttf); 
+}
+
+
 body{
-    background-color: #101210;
+    background-color: #121213;
+    font-family: 'Roboto';
+    margin: 1.5rem;
+
 }
 .menu{
    width: 100%;
@@ -23,7 +33,10 @@ body{
     list-style: none;
     margin-left: 1.5rem;
     color: white;
-    font-family: 'Poppins';
+    font-family: 'Roboto';
+}
+.menu a:hover{
+    border-bottom: 2px solid #d68109;
 }
 .logo{
     color:#d62709 ;
@@ -35,49 +48,123 @@ body{
     color: #d68109;
     text-transform: uppercase;
 }
-.forms{
-    background-color: #d62709;
+
+main{
+  display: flex;
+  height: 100vw;
+  height: 100vh;
+  justify-content: space-around;
+}
+.logoS{
     display: flex;
     flex-direction: column;
-    align-items: center;
-   border-radius: 10px;
-   padding: 10px;
 }
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
 form{
+    background-color: #202024;
+    padding: 20px 10px 20px 10px;
+    width: 25rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+form input{
+   
+    padding: 17px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #121213;
+    color: white;
+}
+
+form input::placeholder{
+    font-weight: 540;
+    font-size: 0.9rem;
+}
+
+.email{
+    margin-bottom: 1.5rem;
+}
+
+.senha{
+    margin-bottom: 0.5rem;
+}
+
+.forgot{
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    color: #8257e599;
+    cursor: pointer;
+}
+
+.btn{
+    margin-bottom: 1rem;  
+}
+
+form input[type="submit"]{
+    margin-top: 1rem;
+    width: 85%;
+    cursor: pointer ;
+    background-color: #8257e5;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.redesSociais{
     margin-top: 2rem;
     display: flex;
-    flex-direction: column;  
     justify-content: center;
-    align-items: center; 
-    font-family: 'Poppins';
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+.redesSociais button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    width: 50%;
+    height: 80%;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: #2d2d30;
+    border-radius: 7px;
+    cursor: pointer; 
+}
+
+.redesSociais p{
     color: white;
     font-weight: 500;
 }
-input{
-    width: 300px;
-    margin: 0.5rem 0 1rem 0;
+.big{
+    margin-bottom: 2rem;
+    font-size: 90px;
 }
-input[type="text"]{
-    background-color: none;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    outline: none;
-    font-family: 'Montserrat';
-   
 
+.logoS h1{
+    color: white;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: bolder;
 }
-input[type="submit"]{
-    background: none;
-    border: none;
-    background: #d68109;
-    width: 150px;
-    padding: 10px;
-    border-radius:15px;
-    cursor: pointer;
-   
-}
-select{
-    margin-bottom: 1rem;
+.logoS{
+    line-height: 2rem;
 }
 
