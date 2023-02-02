@@ -1,6 +1,6 @@
 const container = document.querySelector('.container');
 
-const api = fetch(`https://gogoanime.consumet.org/recent-release`)
+const api = fetch(`https://gogoanime.consumet.stream/recent-release`)
 .then(data => data.json())
 .then(resorce => {
     for(let ani of resorce){
