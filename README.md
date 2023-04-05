@@ -12,7 +12,6 @@
 
 
 
-[ 🔗 Clique para acessar](https://login-local-storage.vercel.app/)
 
 # 🔧 Tecnologias
 
